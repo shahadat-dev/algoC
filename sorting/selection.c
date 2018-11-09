@@ -1,22 +1,21 @@
-// Selection Sort
-
-// Time Complexity: O(n^2) - Exponential Complexity
-// Ex:
-// 2^10 = 1024 i.e, log(1024) = 10, it will take only 10 loop to find a element in 1024 element array
-// 2^32 = 4294967296 i.e, log(4294967296) = 32, it will take only 32 loop to find a element in 4294967296 element array
-
-// Space Complexity: O(1)
+/*
+* Selection Sort
+*
+* Time Complexity: O(n^2) - Exponential Complexity
+*
+* Space Complexity: O(1)
+*/
 
 #include <stdio.h>
 
 /*
 * DESC:     Sort an array using Selection sort algorithm.
 *
-* PARARMS:  int arr[] :   Unsorted Array
-*           int n   :   Length of array
+* PARARMS:  int arr[]   :   Unsorted Array
+*           int n       :   Length of array
 *
 *
-* RETURN:   Type    :   void
+* RETURN:   Type        :   void
 *
 */
 void selection_sort(int arr[], int n)
